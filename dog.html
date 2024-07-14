@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doggy</title>
+    <style>
+        h2 {
+            background-color: lightblue;
+            color: blue;
+            padding: 5px;
+
+        }
+
+        .heading {
+            color: blueviolet
+        }
+
+        .side {
+            float: right;
+            width: 30%;
+
+
+        }
+
+        .font {
+            font-family: Arial, sans-serif;
+        }
+
+        .font2 {
+            font-family: 'Single Day', cursive;
+        }
+
+        .font3 {
+            font-family: Courier New, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hi! i'm Fluffy</h1>
+    <img src="dog.jpeg" alt="Fluffy" class="side">
+    <div class="content">
+
+        <h2>About</h2>
+        <p>I'm a labrador. I turn 3 this june. <br>
+            Rocky takes me for a walk everyday.<b><span style="color:blue"> we both love to play fetch.</b></span> he is a very good brother, and we have a lot
+            of adventures together.
+        </p>
+        <h2>Courses</h2>
+        <p>Here's a list of courses rocky has taken this sem:
+        </p>
+        <table border="1px" cellspacing="0">
+            <tr>
+                <th>Course Number</th>
+                <th>Course title</th>
+                <th>Semester taken</th>
+            </tr>
+            <tr>
+                <th colspan="3">For Credit</th>
+            </tr>
+            <tr>
+                <th class="heading">BCE101</th>
+                <td style="color:blue">Intro to Python</td>
+                <td style="color:blue">Fall 2022</td>
+            </tr>
+            <tr>
+                <th class="heading">BEC102</th>
+                <td style="color:blue">Basic Electronics Eng.</td>
+                <td>Fall 2022</td>
+            </tr>
+            <tr>
+                <th class="heading">BCE103</th>
+                <td>Intro to Web Dev</td>
+                <td>Winter 2024</td>
+            </tr>
+            <tr>
+                <th colspan="3">Listener</th>
+            </tr>
+            <tr>
+                <th class="heading">NOC204</th>
+                <td>Public Speaking</td>
+                <td>Winter 2024</td>
+            </tr>
+            <tr>
+                <th class="heading">NOC205</th>
+                <td>Intro to Psychology</td>
+                <td>Fall 2023</td>
+            </tr>
+
+        </table>
+    </div>
+    <h2>Interests</h2>
+    <p>I and Rocky love to <abbr title="mostly young-adult fiction and thrillers">read books</abbr>. I also love <span
+            class="font">board games</span>, <span class="font2">basketball </span>and <span class="font3"><b>playing
+                music!</b></span></p>
+    <h2>Submit Pet Info</h2>
+    <p>We'd love to know about your pet(s). Feel free to drop the details of your cuties below!</p>
+    <form method="POST" action="comments.pl">
+        <fieldset>
+            <legend>Pet Info</legend>
+            <table border="0">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>phylum:</td>
+                    <td><input type="text" name="phylum"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="text" name="gender"></td>
+                </tr>
+
+            </table>
+        </fieldset>
+        <input type="submit" title="Send"><input type="reset" title="Clear">
+    </form>
+
+
+</body>
+
+</html>

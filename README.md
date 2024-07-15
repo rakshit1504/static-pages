@@ -25,19 +25,10 @@ Creating these static pages has significantly improved our:
 
 Here are some screenshots of the web pages included in this repository:
 
-![Page 1](screenshots/page1.png)
-*Description of Page 1*
-
-![Page 2](screenshots/page2.png)
-*Description of Page 2*
-
-![Page 3](screenshots/page3.png)
-*Description of Page 3*
-
 ## How to Use
 
 To view these static pages:
 
-1. Clone this repository to your local machine:
+Clone this repository to your local machine:
    ```sh
    git clone https://github.com/rakshit1504/static-pages

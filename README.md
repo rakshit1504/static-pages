@@ -21,14 +21,10 @@ Creating these static pages has significantly improved our:
 - **CSS Expertise**: Ability to style web pages using pure CSS, including positioning, animations, and responsiveness.
 - **JavaScript Knowledge**: Experience in adding interactivity and basic functionality without relying on external libraries.
 
-## Screenshots
-
-Here are some screenshots of the web pages included in this repository:
 
 ## How to Use
 
 To view these static pages:
 
 Clone this repository to your local machine:
-   ```sh
    git clone https://github.com/rakshit1504/static-pages

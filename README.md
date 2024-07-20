@@ -27,5 +27,5 @@ Creating these static pages has significantly improved our:
 To view these static pages:
 
 Clone this repository to your local machine:
-   git clone https://github.com/rakshit1504/static-pages.git
+   git clone https://github.com/rakshit1504/static-pages.git  
 you may view individual pages by opening their respective html file
